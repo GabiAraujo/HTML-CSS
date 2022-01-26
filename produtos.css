@@ -1,0 +1,75 @@
+header 
+{
+    background: #BBBBBB;
+    padding: 20px; /* para ter um espaçamento entre a margem e o conteudo */
+}
+/* position:
+- absolute:  é a posição absoluta em relação a tela ou ao local que ele ta inserido. 
+Ele pode ta dentro de uma div, então a posição absoluta é com relação a ela;
+- relative:  posição com relação a si mesmo, se colocar pra ta 20px a direita, ele vai se posicionar
+20 px em relação a posição que tava antes;
+- fixed:  vai ficar no mesmo lugar independente de rolar a página;
+ */
+.caixa
+{
+    position: relative;
+    width: 940px;
+    margin: 0 auto; /* espaçamento externo, primeiro é o valor pra cima e pra baixo e dps da direita e da esquerda */
+}
+nav
+{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li 
+{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a 
+{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.produtos
+{
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.produtos li
+{
+    display: inline-block; /*o elemento terá uma largura definida e poderá ter outros do lado*/
+    text-align: center;
+    width: 30%;
+    vertical-align: top; /*usado por que o inline block se baseia na linha de baixo*/
+    margin: 0 1.5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+.produtos h2
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-preco
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.produto-descricao
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}

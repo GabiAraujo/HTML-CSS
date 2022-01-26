@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head> <!-- head, não aparece para usuario, apenas configurações do texto/página -->
+		<meta charset="utf-8"> <!-- dicionário -->
+		<title> Produtos - Barbearia Alura </title>
+		<link rel="stylesheet" href="reset.css"> <!--o arquivo reset é usado para limpar tudo que o nagavedor pre determinada para a página e tem que ser colocado antes do arquivo que terá as configurações de estilo feitas pelo usuario -->
+		<link rel="stylesheet" href="produtos.css">
+	</head>
+	<body> <!-- texto que irá aparecer ao usuario -->
+		<header> <!-- cabeçalho -->
+			<div class="caixa">
+				<h1> <img src="logo.png"></h1>
+
+				<nav> <!-- tag de navegação -->
+					<ul> <!-- lista nao ordenada --> 
+						<li><a href="index.html">Home</a></li> <!-- o "a" (a vem de ancor/ancora) serve para indicar que o conteudo será um link e ref é o link de endereço -->
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>	
+				</nav>
+			</div>
+		</header>
+
+		<main> <!-- tag especifica para dividir a parte mais importante do texto -->
+			<ul class="produtos">
+				<li>
+					<h2>Cabelo</h2>
+					<img src="cabelo.jpg">
+					<p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
+					<p class="produto-preco">R$ 25,00</p>
+				</li>
+				<li>
+					<h2>Barba</h2>
+					<img src="barba.jpg">
+					<p class="produto-descricao">Corte e desenho profissional de barba</p>
+					<p class="produto-preco">R$ 18,00</p>
+				</li>
+				<li>
+					<h2>Cabelo + Barba</h2>
+					<img src="cabelo+barba.jpg">
+					<p class="produto-descricao">Pacote completo de cabelo e barba.</p>
+					<p class="produto-preco">R$ 35,00</p>
+				</li>
+			</ul>
+		</main>  
+	</body>
+</html>

@@ -1,0 +1,64 @@
+body
+{ 
+	
+}
+.titulo-principal 
+{
+    padding-left: 20px; /*espaçamento interno à esquerda */
+}
+#banner
+{
+	width: 100%; /*mudar a largura da imagem, agora ela ocupa toda a página */
+}
+.principal
+{
+	background: #87CEEB; 
+	padding: 30px;
+}
+
+.titulo-centralizado 
+{
+    text-align: center
+}
+p
+{
+	text-align: center;
+}
+
+#missao /*como tinha uma formatação especifica, defini-se um nome para referenciar */
+{
+	font-size: 20px 
+}
+
+em strong /* pega todos os strongs dentro dos */
+{
+	color: red;
+}
+.itens
+{
+	font-style: italic;
+}
+.beneficios
+{
+	background: #FFFFFF;
+	padding: 20px; /* espaçamento de todo o conteudo */
+}
+
+
+ul
+{
+	display: inline-block; 
+	/*inline-block, é possivel mudar o tamanho do conteudo e a largura que ocupará na página,
+	 de modo que será possivel colocar outras informações ao lado */
+	vertical-align: top;
+	/*´para alinhar o texto com a linha de cima da imagem */
+	width:20% ;
+	/*width é largura */
+	margin-right: 15%;
+	/* espaçamento a direita*/
+
+}
+.imagembeneficios
+{
+	width: 50%;
+}

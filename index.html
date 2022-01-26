@@ -1,0 +1,43 @@
+<!DOCTYPE html> <! - mostrar qual versão usa ->
+<html lang="pt-br"> <!- tag html vai marcar o conteudo a ser renderizado ->
+    <head>
+        <meta charset="UTF-8">
+        <header>
+            <h1 class="titulo-principal">Barbearia Alura</h1> <!- title é para titulo da pagina ->
+        </header>
+        <link rel="stylesheet" href="style.css"> 
+        <!- link: a ligação de um arquivo para o outro. O relacionamento desse link com a propriedade rel e o valor stylesheet (folha de estilo) e vamos dizer onde o arquivo está href = endereço de referência:->
+    </head>
+    <body>
+        
+            <img id = "banner" src = "banner.jpg">
+        <div class="principal">
+            <h2 class="titulo-centralizado" >Sobre a Barbearia Alura</h2> 
+            
+            <!– h1 é para título e p para paragrafo ->
+
+            <p> Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+
+            Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+            <p id = "missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p> 
+            <!- strong é para negrito e em é para italico, text-align é uma propriedade e center é o valor ->
+            <!- id é um marcador para identificação , então podemos usar o mesmo nome lá no arquivo do css -> 
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+            O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </div>
+
+        <div class="beneficios">
+            <h3 class="titulo-centralizado"> Benefícios </h3>
+            <!- foi criado uma lista não ordenada, por meio do ul e cada elemento deve ser marcado com li, além disso, foi criado uma classe para modificar todos os elementos da lista de vez ->
+                <ul> 
+                    <li class = "itens">Atendimento aos clientes é o nosso maior benefício. </li>
+                    <li class = "itens">Espaço diferenciado.</li> 
+                    <li class = "itens">Localização.</li> 
+                    <li class = "itens">Profissionais qualificados.</li>
+                </ul>
+        <img src="beneficios.jpg" class="imagembeneficios">
+
+        </div>
+    </body>
+</html>
